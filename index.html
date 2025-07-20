@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A simple app to list your favorite movies." />
+  <title>My Favorite Movies</title>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Open Graph for social media -->
+  <meta property="og:title" content="My Favorite Movies" />
+  <meta property="og:description" content="Add and save your favorite movie titles!" />
+  <meta property="og:image" content="thumbnail.png" />
+
+  <link rel="canonical" href="https://your-username.github.io/favorite-movie-list/" />
+  <link rel="preload" href="font.woff2" as="font" type="font/woff2" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+  <div class="container">
+    <h1>My Favorite Movies 🎬</h1>
+    <input type="text" id="movieInput" placeholder="Enter movie name..." />
+    <button id="addBtn">Add</button>
+    <ul id="movieList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
